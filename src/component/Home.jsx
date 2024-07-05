@@ -10,8 +10,8 @@ import gkimg from "../assets/gkimg.jpg";
 const Home = () => {
   return (
     <>
-      <header className="flex flex-col font-sans px-12">
-        <nav className=" border border-black flex justify-between py-2 text-gray-600 font-medium items-center">
+      <header className="flex flex-col font-sans md:px-12">
+        <nav className=" border border-black flex justify-between md:py-2 text-gray-600 font-medium items-center">
           <div>
             <img src="" alt="logo" />
           </div>
@@ -30,8 +30,8 @@ const Home = () => {
             </button>
           </div>
         </nav>
-        <div className="flex border py-24 justify-between ">
-          <section className="flex flex-col gap-2 border w-3/5">
+        <div className="flex flex-col-reverse border gap-5 items-center md:flex-row border py-5 md:py-24 md:justify-between ">
+          <section className="flex flex-col gap-2 border w-3/4 md:w-3/5">
             <div className="font-bold text-4xl flex ">
               Hi, I'm Ganesh{" "}
               <span className="text-yellow-400 inline py-1">
