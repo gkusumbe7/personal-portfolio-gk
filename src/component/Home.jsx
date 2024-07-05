@@ -1,10 +1,16 @@
 import { MdOutlineLightMode } from "react-icons/md";
 import { PiHandWavingFill } from "react-icons/pi";
+import { IoLocationOutline } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 
+
+import gkimg from "../assets/gkimg.jpg";
 const Home = () => {
   return (
     <>
-      <header className="flex flex-col font-sans px-6">
+      <header className="flex flex-col font-sans px-12">
         <nav className=" border border-black flex justify-between py-2 text-gray-600 font-medium items-center">
           <div>
             <img src="" alt="logo" />
@@ -24,15 +30,15 @@ const Home = () => {
             </button>
           </div>
         </nav>
-        <div className="flex py-6">
-          <section className="w-1/2">
-            <div className="font-bold text-3xl flex ">
+        <div className="flex border py-24 justify-between ">
+          <section className="flex flex-col gap-2 border w-3/5">
+            <div className="font-bold text-4xl flex ">
               Hi, I'm Ganesh{" "}
               <span className="text-yellow-400 inline py-1">
                 <PiHandWavingFill />
               </span>
             </div>
-            <p className="text-sm text-gray-500 t">
+            <p className="text-md text-gray-500 font-semibold">
               I am a passionate [Your Profession] with a knack for [Key Skills
               or Specialization]. With a background in [Relevant Experience or
               Education], I have successfully [Achievements or Projects]. My
@@ -40,15 +46,17 @@ const Home = () => {
               highlighting my creativity, problem-solving skills, and commitment
               to excellence.
             </p>
-            <p>Nagpur Maharashtra</p>
-            <p>
-              <span>L</span>
-              <span>L</span>
-              <span>L</span>
-            </p>
+            <div className=" text-md flex gap-2 items-center "><span className="text-bold text-xl"><IoLocationOutline /></span><span>Nagpur Maharashtra</span></div>
+            <div className="flex gap-2 text-2xl ">
+              <span className="text-black"><FaGithub/></span>
+              <span className="text-sky-600"><FaLinkedin/></span>
+              <span className="text-orange-400 rounded-4xl" ><FaInstagramSquare/></span>
+            </div>
           </section>
-          <section className="w-1/2">
-            <img src="" alt="logo" />
+          <section className="mx-24">
+            <div className="bg-blue-200 p-2 rounded-lg">
+             <img src={gkimg} alt="logo" className="rounded-lg "/>  
+            </div>
           </section>
         </div>
       </header>
