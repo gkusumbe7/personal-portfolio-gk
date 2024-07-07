@@ -46,11 +46,11 @@ export default function Example() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium"
+        className="flex items-center gap-x-2 p-1 font-medium lg:text-[18px]"
       >
         <svg
-          width="16"
-          height="17"
+          width="20"
+          height="20"
           viewBox="0 0 16 17"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -70,11 +70,11 @@ export default function Example() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium"
+        className="flex items-center gap-x-2 p-1 font-medium lg:text-[18px]"
       >
         <svg
-          width="14"
-          height="15"
+          width="16"
+          height="16"
           viewBox="0 0 14 15"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -92,11 +92,11 @@ export default function Example() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium"
+        className="flex items-center gap-x-2 p-1 font-medium lg:text-[18px]"
       >
         <svg
-          width="16"
-          height="15"
+          width="18"
+          height="18"
           viewBox="0 0 16 15"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ export default function Example() {
           Material Tailwind
         </Typography>
         <div className="hidden lg:block">{navList}</div>
-        <div className="flex items-center gap-x-1">
+        {/* <div className="flex items-center gap-x-1">
           <Button variant="text" size="sm" className="hidden lg:inline-block">
             <span>Log In</span>
           </Button>
@@ -137,7 +137,7 @@ export default function Example() {
           >
             <span>Sign in</span>
           </Button>
-        </div>
+        </div> */}
         <IconButton
           variant="text"
           className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -177,7 +177,7 @@ export default function Example() {
         </IconButton>
       </div>
       <MobileNav open={openNav}>
-        <div className="container mx-auto">
+        {/* <div className="container mx-auto">
           {navList}
           <div className="flex items-center gap-x-1">
             <Button fullWidth variant="text" size="sm" className="">
@@ -187,7 +187,7 @@ export default function Example() {
               <span>Sign in</span>
             </Button>
           </div>
-        </div>
+        </div> */}
       </MobileNav>
     </Navbar>
   );
