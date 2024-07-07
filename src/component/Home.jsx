@@ -4,13 +4,16 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-
+import { IoMenu } from "react-icons/io5";
+import Example from "./Example";
 import gkimg from "../assets/gkimg.jpg";
 const Home = () => {
   return (
     <>
+    
       <header className="flex flex-col font-sans md:px-12 bg-gray-50">
-        <nav className=" border border-black flex justify-between md:py-3 text-gray-600 font-medium items-center">
+      <Example></Example>
+        {/* <nav className=" border border-black flex justify-between md:py-3 text-gray-600 font-medium items-center">
           <div>
             <img src="" alt="logo" />
           </div>
@@ -28,7 +31,7 @@ const Home = () => {
               Download CV
             </button>
           </div>
-        </nav>
+        </nav> */}
         <div className="flex flex-col-reverse  gap-5 items-center md:flex-row border py-5 md:py-14 md:justify-between ">
           <section className="flex flex-col gap-2 border w-3/4 md:w-3/5">
             <div className="font-bold text-4xl flex ">
