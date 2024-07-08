@@ -21,8 +21,8 @@ export function About() {
   return (
     <>
       {" "}
-      <Card className="flex  flex-col-reverse md:flex-row  gap-5 p-5">
-      <Card className="mt-6 w-70 ">
+      <Card className="flex  flex-col-reverse md:flex-row  gap-5 p-5 ">
+      <Card className="mt-6 w-70 text-wrap mx-20 md:mx-auto">
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
             UI/UX Review Check
