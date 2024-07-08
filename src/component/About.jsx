@@ -1,6 +1,11 @@
+// import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+
+
 import {
   CardHeader,
-  Tooltip,
   Card,
   CardBody,
   CardFooter,
@@ -35,48 +40,18 @@ export function About() {
           <img src={gkimg} alt="profile-picture" className="h-80 w-80 md:h-auto md:w-auto rounded-xl" />
         </CardHeader>
         <CardBody className="text-center">
-          <Typography variant="h4" color="blue-gray" className="mb-1">
+          <Typography variant="h3" color="blue-gray" className="mb-1">
             Ganesh Kusumbe
           </Typography>
           <Typography color="blue-gray" className="font-bold" textGradient>
             Full Stack Developer
           </Typography>
         </CardBody>
-        <CardFooter className="flex justify-center gap-7 pt-2">
-          <Tooltip content="Like">
-            <Typography
-              as="a"
-              href="#facebook"
-              variant="lead"
-              color="blue"
-              textGradient
-            >
-              <i className="fab fa-facebook" />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Follow">
-            <Typography
-              as="a"
-              href="#twitter"
-              variant="lead"
-              color="light-blue"
-              textGradient
-            >
-              <i className="fab fa-twitter" />
-            </Typography>
-          </Tooltip>
-          <Tooltip content="Follow">
-            <Typography
-              as="a"
-              href="#instagram"
-              variant="lead"
-              color="purple"
-              textGradient
-            >
-              <i className="fab fa-instagram" />
-            </Typography>
-          </Tooltip>
-        </CardFooter>
+        <CardFooter className="flex border-black justify-center gap-5 pt-0.5 ">
+        <FaLinkedin className="text-2xl text-blue-400"/>
+        <FaGithub className="text-2xl text-black"/>
+        <FaInstagram className="text-2xl text-red-400"/>
+      </CardFooter>
       </Card>
       </Card>
       
