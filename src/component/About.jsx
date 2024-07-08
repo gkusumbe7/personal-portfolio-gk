@@ -14,7 +14,7 @@ export function About() {
     <>
       {" "}
       <Card className="bg-blue-gray-100 flex flex-col-reverse md:flex-row  gap-5 p-5 my-2 lg:my-auto">
-      <Card className="mt-6 w-70 text-wrap md:mx-auto">
+      <Card className="mt-6 text-wrap md:mx-auto">
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
             UI/UX Review Check
@@ -30,7 +30,7 @@ export function About() {
         </CardFooter>
       </Card>
       
-      <Card className="w-80 flex-col  md:w-auto md:p-4">
+      <Card className=" flex-col  md:w-auto md:p-4">
         <CardHeader floated={false} className="md:p-2 ">
           <img src={gkimg} alt="profile-picture" className="h-80 w-80 md:h-auto md:w-auto rounded-xl" />
         </CardHeader>
