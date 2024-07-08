@@ -14,7 +14,8 @@ export function ProjectPage() {
     <>
       {" "}
       <Card className="bg-blue-gray-100 flex flex-col-reverse md:flex-row gap-10 p-10 md:gap-5 md:p-5 my-2 lg:my-auto">
-        <Card className="mt-6 w-76">
+     
+      <Card className="mt-14 w-76">
           <CardHeader color="blue-gray" className="relative">
             <img
               src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
@@ -36,7 +37,7 @@ export function ProjectPage() {
             <Button>Read More</Button>
           </CardFooter>
         </Card>
-{/*  */}        <Card className="mt-6 w-76">
+{/*  */}<Card className="mt-14 w-76">
 <CardHeader color="blue-gray" className="relative">
             <img
               src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
@@ -58,9 +59,8 @@ export function ProjectPage() {
             <Button>Read More</Button>
           </CardFooter>
         </Card>
-        {/*  */}
-        <Card className="mt-6 w-76">
-          <CardHeader color="blue-gray" className="relative">
+{/*  */}<Card className="mt-14 w-76">
+<CardHeader color="blue-gray" className="relative">
             <img
               src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
               alt="card-image"
@@ -81,7 +81,7 @@ export function ProjectPage() {
             <Button>Read More</Button>
           </CardFooter>
         </Card>
-      </Card>
+{/*  */}</Card>
     </>
   );
 }
