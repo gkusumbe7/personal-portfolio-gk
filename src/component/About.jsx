@@ -9,19 +9,11 @@ import {
 } from "@material-tailwind/react";
 
 import gkimg from "../assets/gkimg.jpg";
-//   import {Card,
-//     CardHeader,
-//     CardBody,
-//     CardFooter,
-//     Typography,
-//     Tooltip } from  "@material-tailwind/react"
-// import gkimg from "../assets/gkimg.jpg";
-
 export function About() {
   return (
     <>
       {" "}
-      <Card className="flex  flex-col-reverse md:flex-row  gap-5 p-5 ">
+      <Card className="bg-blue-gray-100 flex flex-col-reverse md:flex-row  gap-5 p-5 my-2 lg:my-auto">
       <Card className="mt-6 w-70 text-wrap mx-20 md:mx-auto">
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
