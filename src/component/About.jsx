@@ -18,7 +18,7 @@ export function About() {
   return (
     <>
       {" "}
-      <Card className="bg-blue-gray-100 flex flex-col-reverse md:flex-row  gap-5 p-5 my-2 lg:my-auto">
+      <Card className="bg-blue-200 flex flex-col-reverse md:flex-row  gap-5 p-5 my-2 lg:my-auto">
       <Card className="mt-6 text-wrap md:mx-auto">
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
