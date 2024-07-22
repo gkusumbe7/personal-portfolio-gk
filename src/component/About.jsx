@@ -2,8 +2,6 @@
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-
-
 import {
   CardHeader,
   Card,
@@ -14,10 +12,11 @@ import {
 } from "@material-tailwind/react";
 
 import gkimg from "../assets/gkimg.jpg";
-export function About() {
+function About() {
   return (
     <>
       {" "}
+      <main className="pt-5 pb-0 px-10">
       <Card className="bg-blue-200 flex flex-col-reverse md:flex-row  gap-5 p-5 my-2 lg:my-auto">
       <Card className="mt-6 text-wrap md:mx-auto">
         <CardBody>
@@ -48,13 +47,16 @@ export function About() {
           </Typography>
         </CardBody>
         <CardFooter className="flex border-black justify-center gap-5 pt-0.5 ">
-        <FaLinkedin className="text-2xl text-blue-400"/>
-        <FaGithub className="text-2xl text-black"/>
-        <FaInstagram className="text-2xl text-red-400"/>
+        <a href="https://www.linkedin.com/in/ganesh-kusumbe/"><FaLinkedin className="text-2xl text-blue-400"/></a> 
+        <a href="https://github.com/gkusumbe7"><FaGithub className="text-2xl text-black"/></a>
+        <a href="https://www.instagram.com/ganesh.kusumbe/"><FaInstagram className="text-2xl text-red-400"/></a>
       </CardFooter>
       </Card>
       </Card>
       
+      </main>
+     
     </>
   );
 }
+export default About;

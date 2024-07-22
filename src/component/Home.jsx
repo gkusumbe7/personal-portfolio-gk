@@ -10,9 +10,8 @@ import gkimg from "../assets/gkimg.jpg";
 const Home = () => {
   return (
     <>
-    
       <header className="flex flex-col font-sans md:px-12 bg-gray-50">
-      <Example></Example>
+        <Example></Example>
         {/* <nav className=" border border-black flex justify-between md:py-3 text-gray-600 font-medium items-center">
           <div>
             <img src="" alt="logo" />
@@ -76,9 +75,10 @@ const Home = () => {
 
       <main className="md:px-12">
         <div className="flex flex-col items-center gap-4 border px-4 py-4">
-          <h1 className="bg-gray-300 text-xl font-semibold px-4 rounded-xl py-1.5 boxshadow-xl border-2 border-white">About me</h1>
+          <h1 className="bg-gray-300 text-xl font-semibold px-4 rounded-xl py-1.5 boxshadow-xl border-2 border-white">
+            About me
+          </h1>
           <p className=" text-gray-500 md:text-[19px] font-semibold">
-                
             /* Hi! I'm [Your Name], a dedicated [Your Profession] with a passion
             for [Your Interests/Fields]. With [X] years of experience in [Your
             Field], I've developed expertise in [Key Skills/Areas]. Currently, I
@@ -90,37 +90,58 @@ const Home = () => {
           </p>
         </div>
         <div className="flex flex-col items-center gap-4 border px-4 py-4">
-          <h1 className="bg-gray-300 text-xl font-semibold px-4 rounded-xl py-1.5 boxshadow-xl border-2 border-white">Experience</h1>
-          <p className="text-gray-500 md:text-xl font-semibold">The skills , tools and technologies I am really good at:    </p>
-          <div className=" text-gray-500 md:text-xl">
-                
-          </div>
+          <h1 className="bg-gray-300 text-xl font-semibold px-4 rounded-xl py-1.5 boxshadow-xl border-2 border-white">
+            Experience
+          </h1>
+          <p className="text-gray-500 md:text-xl font-semibold">
+            The skills , tools and technologies I am really good at:{" "}
+          </p>
+          <div className=" text-gray-500 md:text-xl"></div>
         </div>
         <div className="flex flex-col items-center gap-4 border px-4 py-4">
-          <h1 className="bg-gray-300 text-xl font-semibold px-4 rounded-xl py-1.5 boxshadow-xl border-2 border-white">Project</h1>
-          <p className="text-gray-500 md:text-xl font-semibold">The skills , tools and technologies I am really good at:    </p>
-          <div className=" text-gray-500 md:text-xl">
-                
-          </div>
+          <h1 className="bg-gray-300 text-xl font-semibold px-4 rounded-xl py-1.5 boxshadow-xl border-2 border-white">
+            Project
+          </h1>
+          <p className="text-gray-500 md:text-xl font-semibold">
+            The skills , tools and technologies I am really good at:{" "}
+          </p>
+          <div className=" text-gray-500 md:text-xl"></div>
         </div>
         <div className="flex flex-col items-center gap-4 border px-4 py-4">
-          <h1 className="bg-gray-300 text-xl font-semibold px-4 rounded-xl py-1.5 boxshadow-xl border-2 border-white">Get in touch</h1>
-          <p className="text-gray-500 md:text-xl font-semibold">The skills , tools and technologies I am really good at:    </p>
+          <h1 className="bg-gray-300 text-xl font-semibold px-4 rounded-xl py-1.5 boxshadow-xl border-2 border-white">
+            Get in touch
+          </h1>
+          <p className="text-gray-500 md:text-xl font-semibold">
+            The skills , tools and technologies I am really good at:{" "}
+          </p>
           <div className=" text-gray-500 md:text-xl flex flex-col items-center gap-3">
-                <p>What's next ? Feel free to reach out to me if your are looking for developer , have query , or simply want to connect  </p>
-                <p><span>Message</span>gkusumbe7@gmail.com <span>Copy</span></p>
-                <p><span>Contact</span>+91 9172319749<span>Copy</span></p>
-                <p>You may also find me on these platform! </p>
-                <div className="flex gap-2 text-2xl ">
-              <span className="text-black">
-                <FaGithub />
-              </span>
-              <span className="text-sky-600">
-                <FaLinkedin />
-              </span>
-              <span className="text-orange-400 rounded-4xl">
-                <FaInstagramSquare />
-              </span>
+            <p>
+              What's next ? Feel free to reach out to me if your are looking for
+              developer , have query , or simply want to connect{" "}
+            </p>
+            <p>
+              <span>Message</span>gkusumbe7@gmail.com <span>Copy</span>
+            </p>
+            <p>
+              <span>Contact</span>+91 9172319749<span>Copy</span>
+            </p>
+            <p>You may also find me on these platform! </p>
+            <div className="flex gap-2 text-2xl ">
+              <a href="https://github.com/gkusumbe7">
+                <span className="text-black">
+                  <FaGithub />
+                </span>
+              </a>
+              <a href="https://www.linkedin.com/in/ganesh-kusumbe/">
+                <span className="text-sky-600">
+                  <FaLinkedin />
+                </span>
+              </a>
+              <a href="https://www.instagram.com/ganesh.kusumbe/">
+                <span className="text-orange-400 rounded-4xl">
+                  <FaInstagramSquare />
+                </span>
+              </a>
             </div>
           </div>
         </div>
