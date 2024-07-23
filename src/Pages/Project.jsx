@@ -12,7 +12,7 @@ import {
     return (
       <>
         <NavBar></NavBar>
-        <main className=" pt-3 px-10">
+        <main className="px-10 p-28">
         <main className="flex flex-col-reverse md:flex-row gap-10  md:gap-10 md:p-5 my-1 lg:my-auto">
         <Card className="pb-0">
                 <CardHeader color="blue-gray" className="">
@@ -159,13 +159,4 @@ import {
       </>
     );
   }
-  
-  //
-  
-  //   Card,
-  //   CardHeader,
-  //   CardBody,
-  //   CardFooter,
-  //   Typography,
-  //   Button,
   

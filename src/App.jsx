@@ -5,7 +5,7 @@ import Example from "./component/Example"
 import Contact from "./Pages/Contact";
 import Project from "./Pages/Project";
 import { Route , Routes } from "react-router-dom"
-
+import Pra from  "./component/Pra"
 export default function App() {
   return (
     // <Project></Project>
@@ -15,5 +15,6 @@ export default function App() {
         <Route path="/Project" element={<Project></Project>}></Route>
         <Route path="/Contact" element={<Contact></Contact>}></Route>
       </Routes> 
-  )
+  // <Pra></Pra>
+    )
 }

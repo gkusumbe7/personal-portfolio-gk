@@ -13,12 +13,21 @@ import {
 
 import gkimg from "../assets/gkimg.jpg";
 function About() {
+    const downloadCv = ()=>{
+      const cvUrl = 'src/assets/GaneshKusumbeCV.pdf';
+      const link = document.createElement('a');
+      link.href = cvUrl;
+      link.download = 'Ganesh Kusumbe CV';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild();
+    }
   return (
     <>
       {" "}
-      <main className="pt-5 pb-0 px-10">
+      <main className="pt-24 pb-0 px-10">
       <Card className="bg-blue-200 flex flex-col-reverse md:flex-row  gap-5 p-5 my-2 lg:my-auto">
-      <Card className="mt-6 text-wrap md:mx-auto">
+      <Card className="text-wrap md:mx-auto">
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
             UI/UX Review Check
@@ -30,7 +39,7 @@ function About() {
           </Typography>
         </CardBody>
         <CardFooter className="pt-0">
-          <Button>Download</Button>
+          <Button onClick={downloadCv}>Download</Button>
         </CardFooter>
       </Card>
       

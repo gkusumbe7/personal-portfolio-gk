@@ -5,7 +5,6 @@ const Home = ()=>{
     return(<>
         <NavBar></NavBar>
         <About></About>
-        {/* <Project></Project> */}
     </>)
 }
 
