@@ -22,7 +22,7 @@ import {
                     className="rounded-xl "
                     />
                 </CardHeader>
-                 <CardBody className="p-1 px-4">
+                 <CardBody className="p-3 px-4">
                     <Typography variant="h4" color="blue-gray">
                     UI/UX Review Check
                     </Typography>
@@ -45,7 +45,7 @@ import {
                     className="rounded-xl "
                     />
                 </CardHeader>
-                 <CardBody className="p-1 px-4">
+                 <CardBody className="p-3 px-4">
                     <Typography variant="h4" color="blue-gray">
                     UI/UX Review Check
                     </Typography>
@@ -68,7 +68,7 @@ import {
                     className="rounded-xl"
                     />
                 </CardHeader>
-                 <CardBody className="p-1 px-4">
+                 <CardBody className="p-3 px-4">
                     <Typography variant="h4" color="blue-gray">
                     UI/UX Review Check
                     </Typography>
@@ -93,7 +93,7 @@ import {
                     className="rounded-xl "
                     />
                 </CardHeader>
-                 <CardBody className="p-1 px-4">
+                 <CardBody className="p-3 px-4">
                     <Typography variant="h4" color="blue-gray">
                     UI/UX Review Check
                     </Typography>
@@ -116,7 +116,7 @@ import {
                     className="rounded-xl "
                     />
                 </CardHeader>
-                 <CardBody className="p-1 px-4">
+                 <CardBody className="p-3 px-4">
                     <Typography variant="h4" color="blue-gray">
                     UI/UX Review Check
                     </Typography>
@@ -139,7 +139,7 @@ import {
                     className="rounded-xl"
                     />
                 </CardHeader>
-                 <CardBody className="p-1 px-4">
+                 <CardBody className="p-3 px-4">
                     <Typography variant="h4" color="blue-gray">
                     UI/UX Review Check
                     </Typography>
