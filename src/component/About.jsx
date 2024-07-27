@@ -26,7 +26,7 @@ function About() {
     <>
       {" "}
       <main className="pt-24 pb-0 px-10">
-      <Card className="bg-blue-200 flex flex-col-reverse md:flex-row  gap-5 p-5 my-2 lg:my-auto">
+      <Card className="bg-gradient-to-b from-cyan-200 to-cyan-400 flex flex-col-reverse md:flex-row  gap-10 md:gap-5 p-5 my-2 lg:my-auto">
       <Card className="text-wrap md:mx-auto">
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
