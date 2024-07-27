@@ -18,7 +18,7 @@ export default function NavBar() {
 
   const navList = (
     <div>
-        <ul className="mb-4 flex flex-col gap-10 md:gap-5 md:mb-0 md:mt-0 md:flex-row md:items-center md:gap-6">
+        <ul className="mb-4 flex flex-col gap-12  md:mb-0 md:mt-0 md:flex-row md:items-center md:gap-6">
             <Typography
             as="li"
             variant="small"
@@ -29,14 +29,14 @@ export default function NavBar() {
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
             y="0px"
-            width="20"
-            height="20"
+            width="24"
+            height="24"
             viewBox="0 0 50 50"
             fill="white"
             >
             <path d="M25,2C12.297,2,2,12.297,2,25s10.297,23,23,23s23-10.297,23-23S37.703,2,25,2z M25,11c1.657,0,3,1.343,3,3s-1.343,3-3,3 s-3-1.343-3-3S23.343,11,25,11z M29,38h-2h-4h-2v-2h2V23h-2v-2h2h4v2v13h2V38z"></path>
         </svg>
-        <Link to={"/"} className="flex items-center font-semibold text-white">
+        <Link to={"/"} className="mx-2 flex items-center font-semibold text-white">
           About
         </Link>
       </Typography>
@@ -47,8 +47,8 @@ export default function NavBar() {
         className="flex items-center hover:bg-blue-gray-300 w-80 rounded-lg gap-x-2 p-1 font-medium lg:text-[18px]"
       >
         <svg
-          width="16"
-          height="16"
+          width="24"
+          height="24"
           viewBox="0 0 14 15"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function NavBar() {
             fill="white"
           />
         </svg>
-        <Link to={"/Project"} className="flex items-center font-semibold text-white">
+        <Link to={"/Project"} className="mx-2 flex items-center font-semibold text-white">
           Project
         </Link>
       </Typography>
@@ -79,7 +79,7 @@ export default function NavBar() {
         >
           <path d="M 13 4 C 8.038 4 4 8.037 4 13 L 4 37 C 4 41.963 8.038 46 13 46 L 37 46 C 37.338 46 37.671 45.978406 38 45.941406 L 38 4.0585938 C 37.671 4.0215938 37.338 4 37 4 L 13 4 z M 40 4.5253906 L 40 14 L 46 14 L 46 13 C 46 9.09 43.49 5.7643906 40 4.5253906 z M 22 12 C 29.168 12 35 17.832 35 25 C 35 32.168 29.168 38 22 38 C 14.832 38 9 32.168 9 25 C 9 17.832 14.832 12 22 12 z M 22 14 C 15.935 14 11 18.935 11 25 C 11 27.814 12.071406 30.377219 13.816406 32.324219 C 15.889406 30.225219 18.852 29 22 29 C 25.14 29 28.1135 30.222312 30.1875 32.320312 C 31.9295 30.373313 33 27.812 33 25 C 33 18.935 28.065 14 22 14 z M 40 16 L 40 24 L 46 24 L 46 16 L 40 16 z M 22 18.5 C 24.481 18.5 26.5 20.519 26.5 23 C 26.5 25.481 24.481 27.5 22 27.5 C 19.519 27.5 17.5 25.481 17.5 23 C 17.5 20.519 19.519 18.5 22 18.5 z M 40 26 L 40 34 L 46 34 L 46 26 L 40 26 z M 40 36 L 40 45.474609 C 43.49 44.235609 46 40.91 46 37 L 46 36 L 40 36 z"></path>
         </svg>
-        <Link to={"/Contact"} className="flex items-center font-semibold text-white">
+        <Link to={"/Contact"} className="mx-2 flex items-center font-semibold text-white">
           Contact
         </Link>
       </Typography>
