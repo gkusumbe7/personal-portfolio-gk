@@ -18,7 +18,7 @@ export default function NavBar() {
 
   const navList = (
     <div>
-        <ul className="mb-4 flex flex-col gap-5 md:mb-0 md:mt-0 md:flex-row md:items-center md:gap-6">
+        <ul className="mb-4 flex flex-col gap-10 md:gap-5 md:mb-0 md:mt-0 md:flex-row md:items-center md:gap-6">
             <Typography
             as="li"
             variant="small"
