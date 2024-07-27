@@ -18,12 +18,12 @@ export default function NavBar() {
 
   const navList = (
     <div>
-        <ul className="mb-4 flex flex-col gap-2 md:mb-0 md:mt-0 md:flex-row md:items-center md:gap-6">
+        <ul className="mb-4 flex flex-col gap-5 md:mb-0 md:mt-0 md:flex-row md:items-center md:gap-6">
             <Typography
             as="li"
             variant="small"
             color="blue-gray"
-            className="flex items-center gap-x-2 p-1 font-medium lg:text-[18px]"
+            className="flex items-center hover:bg-blue-gray-300 w-80 rounded-lg  gap-x-2 p-2 font-medium lg:text-[18px]"
             >
             <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export default function NavBar() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium lg:text-[18px]"
+        className="flex items-center hover:bg-blue-gray-300 w-80 rounded-lg gap-x-2 p-1 font-medium lg:text-[18px]"
       >
         <svg
           width="16"
@@ -66,7 +66,7 @@ export default function NavBar() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center gap-x-2 p-1 font-medium lg:text-[18px]"
+        className="flex items-center hover:bg-blue-gray-300 w-80 rounded-lg gap-x-2 p-1 font-medium lg:text-[18px]"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ export default function NavBar() {
   );
 
   return (
-    <Navbar className="fixed  z-50 w-full  mt-1 mx-5 px-4 py-2 lg:px-8 lg:py-4 border-blue-200 bg-gray-800">
+    <Navbar className="fixed z-50 w-full  mt-1 mx-5 px-4 py-2 lg:px-8 lg:py-4 border-blue-200 bg-gray-800">
       <div className="container mx-auto flex items-center justify-between">
         <Typography
           as="a"
