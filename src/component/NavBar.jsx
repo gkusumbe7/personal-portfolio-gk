@@ -23,7 +23,7 @@ export default function NavBar() {
             as="li"
             variant="small"
             color="blue-gray"
-            className="flex items-center hover:bg-blue-gray-300 w-60 rounded-lg gap-x-2 p-1 font-medium lg:text-[18px]"    >
+            className="flex items-center border border-teal-300 hover:border-teal-50 w-60 rounded-lg gap-x-2 p-1 font-medium lg:text-[18px]"    >
             <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
@@ -43,7 +43,7 @@ export default function NavBar() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center hover:bg-blue-gray-300 w-60 rounded-lg gap-x-2 p-1 font-medium lg:text-[18px]"
+        className="flex items-center border border-teal-300 hover:border-teal-50 w-60 rounded-lg gap-x-2 p-1 font-medium lg:text-[18px]"
       >
         <svg
           width="24"
@@ -65,7 +65,7 @@ export default function NavBar() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex items-center hover:bg-blue-gray-300 w-60 rounded-lg gap-x-2 p-1 font-medium lg:text-[18px]"
+        className="flex items-center border border-teal-300 hover:border-teal-50 w-60 rounded-lg gap-x-2 p-1 font-medium lg:text-[18px]"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
