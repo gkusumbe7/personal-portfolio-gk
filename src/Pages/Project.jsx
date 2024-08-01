@@ -12,14 +12,14 @@ import {
     return (
       <>
         <NavBar></NavBar>
-        <main className="px-10 p-28">
+        <main className="px-10 p-24">
         <main className="flex flex-col-reverse md:flex-row gap-10  md:gap-10 md:p-5 my-1 lg:my-auto">
-        <Card className="pb-0">
+        <Card className="border border-teal-400 pb-0 ">
                 <CardHeader color="blue-gray" className="">
                   <img
                     src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
                     alt="card-image"
-                    className="rounded-xl "
+                    className="rounded-xl border border-teal-400 "
                     />
                 </CardHeader>
                  <CardBody className="p-3 px-4">
