@@ -30,8 +30,8 @@ function About() {
   return (
     <>
       {" "}
-      <main className="pt-24 pb-0 px-10">
-      <Card className="bg-gradient-to-b from-cyan-200 to-cyan-400 flex flex-col-reverse md:flex-row  gap-10  md:gap-5 p-5 my-2 lg:my-auto">
+      <main className="md:pt-24 pb-0 md:px-10 px-5 pt-16">
+      <Card className="bg-gradient-to-b from-cyan-500 to-cyan-400 flex flex-col-reverse md:flex-row  gap-10  md:gap-5 p-5 my-2 lg:my-auto">
       <Card className="text-wrap md:mx-auto bg-gradient-to-r from-gray-50 to-gray-100">
         <CardBody>
           <Typography variant="h4" color="blue-gray" className=" mb-2">
@@ -40,7 +40,7 @@ function About() {
           <Typography>
           I'm a frontend developer with a strong command of HTML, CSS, Tailwind CSS, JavaScript, and React. My primary focus is to build websites that are not only functional and user-friendly but also visually appealing. I ensure that each site I work on is easy to navigate, performs well, and looks great across different devices and screen sizes.
           <br /> <br />
-          
+
           Beyond just functionality, I take pride in adding a personal touch to each project. My goal is to make sure your website reflects your brand's identity and engages visitors effectively. I strive to create user experiences that are both seamless and memorable, combining technical skill with creative design to deliver the best results.
           </Typography>
           <div className="flex flex-col md:flex-row gap-8 mt-14">
