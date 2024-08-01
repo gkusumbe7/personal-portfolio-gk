@@ -30,8 +30,8 @@ function About() {
   return (
     <>
       {" "}
-      <main className="md:pt-24 pb-0 md:px-10 pt-12">
-      <Card className="border border-teal-400  rounded-none md:rounded-xl bg-gradient-to-r from-teal-100 to-teal-100 flex flex-col-reverse md:flex-row  gap-10  md:gap-5 p-5 my-2 lg:my-auto">
+      <main className="md:pt-24  md:px-10 pt-12">
+      <Card className="border border-teal-400  rounded-none md:rounded-xl bg-gradient-to-r from-teal-100 to-teal-100 flex flex-col-reverse md:flex-row  gap-10  md:gap-5 p-5 my-0 lg:my-0">
       <Card className="border border-teal-400 text-wrap md:mx-auto bg-gradient-to-r from-teal-50 to-teal-50">
         <CardBody>
           <Typography variant="h4" color="blue-gray" className=" mb-2">
