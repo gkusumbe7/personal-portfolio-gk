@@ -30,9 +30,9 @@ function About() {
   return (
     <>
       {" "}
-      <main className="md:pt-24 pb-0 md:px-10 pt-10">
-      <Card className="bg-gradient-to-b from-cyan-500 to-cyan-400 flex flex-col-reverse md:flex-row  gap-10  md:gap-5 p-5 my-2 lg:my-auto">
-      <Card className="text-wrap md:mx-auto bg-gradient-to-r from-gray-50 to-gray-100">
+      <main className="md:pt-24 pb-0 md:px-10 pt-12">
+      <Card className="border border-teal-400  rounded-none md:rounded-xl bg-gradient-to-r from-teal-100 to-teal-100 flex flex-col-reverse md:flex-row  gap-10  md:gap-5 p-5 my-2 lg:my-auto">
+      <Card className="border border-teal-400 text-wrap md:mx-auto bg-gradient-to-r from-teal-50 to-teal-50">
         <CardBody>
           <Typography variant="h4" color="blue-gray" className=" mb-2">
           About Me
@@ -43,7 +43,7 @@ function About() {
 
           Beyond just functionality, I take pride in adding a personal touch to each project. My goal is to make sure your website reflects your brand's identity and engages visitors effectively. I strive to create user experiences that are both seamless and memorable, combining technical skill with creative design to deliver the best results.
           </Typography>
-          <div className="flex flex-col md:flex-row gap-8 mt-14">
+          <div className=" flex flex-col md:flex-row gap-8 mt-14">
                <Card className="p-3 flex flex-row gap-3 items-center">
                   <div>
                   <MdOutlineMailOutline className="text-3xl p-1 shadow-lg rounded-[4px]"/>
@@ -87,7 +87,7 @@ function About() {
         </CardFooter>
       </Card>
       
-      <Card className="flex flex-col items-center md:w-auto md:p-4">
+      <Card className="bg-gradient-to-r from-teal-50 to-teal-50  border border-teal-400 flex flex-col items-center md:w-auto md:p-4">
         <CardHeader floated={false} className="md:p-2 md:w-60 " >
           <img src={gkimg} alt="profile-picture" className="h-60 w-60 md:h-60 md:w-60 rounded-xl" />
         </CardHeader>
