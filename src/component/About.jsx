@@ -40,6 +40,7 @@ function About() {
           <Typography>
           I'm a frontend developer with a strong command of HTML, CSS, Tailwind CSS, JavaScript, and React. My primary focus is to build websites that are not only functional and user-friendly but also visually appealing. I ensure that each site I work on is easy to navigate, performs well, and looks great across different devices and screen sizes.
           <br /> <br />
+          
           Beyond just functionality, I take pride in adding a personal touch to each project. My goal is to make sure your website reflects your brand's identity and engages visitors effectively. I strive to create user experiences that are both seamless and memorable, combining technical skill with creative design to deliver the best results.
           </Typography>
           <div className="flex flex-col md:flex-row gap-8 mt-14">
