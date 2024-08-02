@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { MdLocalPhone } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
+import { MdOutlineDateRange } from "react-icons/md";
 
 
 import {
@@ -55,7 +56,7 @@ function About() {
                </Card>
                <Card className="p-3 flex flex-row gap-3 items-center">
                   <div>
-                  <MdLocalPhone className="text-3xl p-1 shadow-lg rounded-[4px]"/>
+                  <MdOutlineDateRange className="text-3xl p-1 shadow-lg rounded-[4px]"/>
                   </div> 
                   <div>
                     <p className="text-[12px] font-semibold">Birthday</p>
