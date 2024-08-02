@@ -20,7 +20,7 @@ import {
 import gkimg from "../assets/gkimg.jpg";
 function About() {
     const downloadCv = ()=>{
-      const cvUrl = 'src/assets/GaneshKusumbeCV.pdf';
+      const cvUrl = '..assets/GaneshKusumbeCV.pdf';
       const link = document.createElement('a');
       link.href = cvUrl;
       link.download = 'Ganesh Kusumbe CV';
@@ -38,7 +38,7 @@ function About() {
           <Typography variant="h4" color="blue-gray" className=" mb-2">
           About Me
           </Typography>
-          <Typography>
+          <Typography className="text-gray-800"> 
           I'm a frontend developer with a strong command of HTML, CSS, Tailwind CSS, JavaScript, and React. My primary focus is to build websites that are not only functional and user-friendly but also visually appealing. I ensure that each site I work on is easy to navigate, performs well, and looks great across different devices and screen sizes.
           <br /> <br />
 
@@ -88,7 +88,7 @@ function About() {
         </CardFooter>
       </Card>
       
-      <Card className="bg-gradient-to-r from-teal-50 to-teal-50  border border-teal-400 flex flex-col items-center md:w-auto md:p-4">
+      <Card className="mt-5 md:mt-0 bg-gradient-to-r from-teal-50 to-teal-50  border border-teal-400 flex flex-col items-center md:w-auto md:p-4">
         <CardHeader floated={false} className="md:p-2 md:w-60 " >
           <img src={gkimg} alt="profile-picture" className="h-60 w-60 md:h-60 md:w-60 rounded-xl" />
         </CardHeader>
