@@ -37,7 +37,7 @@ function Contact() {
     <main className="pt-24  md:px-10  flex justify-center">
    <Card className="md:w-1/2  md:justify-center md:items-center border border-teal-400  rounded-xl md:rounded-xl 
                     bg-gradient-to-r from-teal-100 to-teal-100 
-                    font-semibold flex flex-col gap-5 p-5 md:p-10 ">
+                    font-semibold flex flex-col gap-8 md:gap-5 p-10 md:p-10 ">
     <div className="flex flex-col gap-2">
         <label htmlFor="name">Name</label>
         <input type="text" name="" id="nameId" placeholder="Enter Name" 
