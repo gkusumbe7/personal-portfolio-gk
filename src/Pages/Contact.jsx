@@ -1,3 +1,6 @@
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import emailjs from '@emailjs/browser';
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
@@ -10,21 +13,20 @@ import {
 import NavBar from "../component/NavBar";
 import { useRef } from "react";
 function Contact() {
+  
   const form = useRef();
   const  sendEmail= (e) =>{
-      
-      // e.preventDefault();
-      // emailjs.sendForm('service_gbh8yof','template_obpzeba',e.target);
-  
       e.preventDefault();
-
       emailjs
         .sendForm('service_gbh8yof', 'template_obpzeba', form.current, {
           publicKey: 'L6kWLi0xlEh3h6BvJ',
         })
         .then(
-          () => {
+          () => { 
+            const notify = () => toast("Message sent successfully");
+            notify();
             console.log('SUCCESS!');
+            form.current.reset();
           },
           (error) => {
             console.log('FAILED...', error.text);
@@ -55,8 +57,19 @@ function Contact() {
                   className="md:w-80 rounded-md p-2"></textarea>
               </div>
           
-            <Button type="submit" value="Send"  className="md:w-40 bg-blue-gray-900 shadow-2xl">Contact Us</Button>
-          
+            <Button type="submit" value="Send"  className="md:w-40 bg-blue-gray-900 shadow-2xl">Send</Button>
+            <ToastContainer
+position="top-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="light"
+/>
               <div className="flex justify-center items-center gap-4 text-xl">
                   <a href="https://www.linkedin.com/in/ganesh-kusumbe/"><FaLinkedin className="text-2xl text-blue-400"/></a> 
                   <a href="https://github.com/gkusumbe7"><FaGithub className="text-2xl text-black"/></a>
