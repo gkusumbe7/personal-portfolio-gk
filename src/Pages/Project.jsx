@@ -40,7 +40,7 @@ const projectData = [
       id: 4,
       name: "Password Generator App",
       title: "Password Generator App",
-      description:"A food recipe app offers a variety of recipes with searchable ingredients, cooking instructions, and meal planning tools, helping users easily find and prepare meals.",
+      description:"The Password Generator App creates strong, secure passwords with customizable options for length and complexity, ensuring your online accounts are protected.",
       image: "https://raw.githubusercontent.com/gkusumbe7/personal-portfolio-gk/main/src/assets/PG.PNG",
       codelink: "https://github.com/gkusumbe7/Password-Generator",
       liveLink:"https://password-generator-lac-six.vercel.app/"
