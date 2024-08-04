@@ -20,13 +20,13 @@ export default function Project() {
       liveLink:"https://weather-app-eight-theta-13.vercel.app/"
     },
     {
-      id: 1,
-      name: "Item 1",
-      title: "Weather App",
-      description:"Get real-time updates on temperature, humidity, wind speed, and more",
-      image: "../assets/weatherApp.PNG",
-      codelink: "https://github.com/gkusumbe7/weather-app",
-      liveLink:"https://weather-app-eight-theta-13.vercel.app/"
+      id: 2,
+      name: "Food Recipe  App",
+      title: "Food Recipe  App",
+      description:"A food recipe app offers a variety of recipes with searchable ingredients, cooking instructions, and meal planning tools, helping users easily find and prepare meals.",
+      image: "https://raw.githubusercontent.com/gkusumbe7/personal-portfolio-gk/main/src/assets/FRA.PNG",
+      codelink: "https://github.com/gkusumbe7/foodDeliveryApp",
+      liveLink:"https://geekfood-drab.vercel.app/"
     },
     {
       id: 1,
