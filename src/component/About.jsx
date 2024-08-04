@@ -6,8 +6,8 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { MdLocalPhone } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineDateRange } from "react-icons/md";
-
-
+// import resume from "..assets/GaneshKusumbeCV.pdf";
+import CV from "../assets/GaneshKusumbeCV.pdf";
 import {
   CardHeader,
   Card,
@@ -19,15 +19,15 @@ import {
 
 import gkimg from "../assets/gkimg.jpg";
 function About() {
-    const downloadCv = ()=>{
-      const cvUrl = '..assets/GaneshKusumbeCV.pdf';
-      const link = document.createElement('a');
-      link.href = cvUrl;
-      link.download = 'Ganesh Kusumbe CV';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild();
-    }
+    // const downloadCv = ()=>{
+    //   const cvUrl = resume;
+    //   const link = document.createElement('a');
+    //   link.href = cvUrl;
+    //   link.download = 'Ganesh Kusumbe CV';
+    //   document.body.appendChild(link);
+    //   link.click();
+    //   document.body.removeChild();
+    // }
   return (
     <>
       {" "}
@@ -84,7 +84,9 @@ function About() {
           </div>
         </CardBody>
         <CardFooter className="pt-0">
-          <Button onClick={downloadCv}>Download CV</Button>
+         <a href={CV}>
+         <Button>Download CV</Button>
+          </a> 
         </CardFooter>
       </Card>
       
