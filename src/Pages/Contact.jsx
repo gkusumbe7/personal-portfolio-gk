@@ -2,10 +2,6 @@
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import { MdOutlineMailOutline } from "react-icons/md";
-import { MdLocalPhone } from "react-icons/md";
-import { IoLocationOutline } from "react-icons/io5";
-import { MdOutlineDateRange } from "react-icons/md";
 import {
   Card,
   Button,
@@ -49,9 +45,10 @@ function Contact() {
     </div>
   <Button type="submit" className="md:w-40 bg-blue-gray-900 shadow-2xl">Contact Us</Button>
     <div className="flex justify-center items-center gap-4 text-xl">
-        <FaLinkedin className="shadow-2xl "></FaLinkedin>
-        <FaInstagram className="shadow-2xl"></FaInstagram>  
-        <FaGithub className="shadow-2xl"></FaGithub>
+        <a href="https://www.linkedin.com/in/ganesh-kusumbe/"><FaLinkedin className="text-2xl text-blue-400"/></a> 
+        <a href="https://github.com/gkusumbe7"><FaGithub className="text-2xl text-black"/></a>
+        <a href="https://www.instagram.com/ganesh.kusumbe/"><FaInstagram className="text-2xl text-red-400"/></a>
+     
     </div>      
       </Card>
       </main>
