@@ -7,16 +7,10 @@ import { MdLocalPhone } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineDateRange } from "react-icons/md";
 import {
-  CardHeader,
   Card,
-  CardBody,
-  CardFooter,
-  Typography,
   Button,
-  Navbar,
 } from "@material-tailwind/react";
 
-import gkimg from "../assets/gkimg.jpg";
 import NavBar from "../component/NavBar";
 function Contact() {
     
@@ -39,21 +33,26 @@ function Contact() {
                     bg-gradient-to-r from-teal-100 to-teal-100 
                     font-semibold flex flex-col gap-8 md:gap-5 p-10 md:p-10 ">
     <div className="flex flex-col gap-2">
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name" className="text-gray-900">Name</label>
         <input type="text" name="" id="nameId" placeholder="Enter Name" 
         className="md:w-80 rounded-md p-2"/>
     </div>
     <div className="flex flex-col gap-2">
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email" className="text-gray-900">Email</label>
         <input type="text" name="" id="nameId" placeholder="Enter Email" 
         className="md:w-80 rounded-md p-2"/>
     </div>
 
     <div className="flex flex-col gap-2">
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message" className="text-gray-900">Message</label>
         <textarea name="message" id="messageId" className="md:w-80 rounded-md p-2"></textarea>
     </div>
   <Button type="submit" className="md:w-40 bg-blue-gray-900 shadow-2xl">Contact Us</Button>
+    <div className="flex justify-center items-center gap-4 text-xl">
+        <FaLinkedin className="shadow-2xl "></FaLinkedin>
+        <FaInstagram className="shadow-2xl"></FaInstagram>  
+        <FaGithub className="shadow-2xl"></FaGithub>
+    </div>      
       </Card>
       </main>
     </>
